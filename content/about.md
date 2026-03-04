@@ -3,4 +3,4 @@ title: About
 type: about
 ---
 
-This is the about page.
+I'm a programmer and reverse engineer interested in systems programming, offensive security, and digital privacy.

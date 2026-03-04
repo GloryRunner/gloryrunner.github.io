@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: Glory
 
 # import hextra as module
 module:
@@ -18,29 +18,36 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Articles
+      pageRef: /articles
       weight: 1
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
     - name: Search
       weight: 4
       params:
         type: search
+    - name: Discord
+      weight: 6
+      url: "https://discordapp.com/users/854590763157684265"
+      params:
+        icon: discord
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/gloryrunner"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
+    - name: Email
+      weight: 7
+      url: "mailto:gloryrunner1@protonmail.com"
       params:
-        icon: x-twitter
+        icon: mail
+    - name: PGP
+      weight: 8
+      url: "https://keys.openpgp.org/vks/v1/by-fingerprint/15F9D3AC2840752E8EECEE49E6B4A4820E529054"
+      params:
+        icon: key
 
 params:
   navbar:
@@ -49,7 +56,7 @@ params:
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
 
   editURL:
     enable: true

@@ -1,17 +1,12 @@
 ---
-title: My Site
 toc: false
 ---
 
-This is the landing page.
+## Welcome!
 
-## Explore
+I’m a programmer and reverse engineer interested in systems programming, offensive security, and digital privacy.
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
+  {{< card link="articles" title="Articles" icon="book-open" >}}
   {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
